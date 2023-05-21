@@ -10,6 +10,7 @@ I use a merge-like sort algorithm, which turned out to sort the numbers with a d
 
 ## How to run
 Use ```make``` and then run the program using ```./push_swap <1st nbr> <2nd nbr> ... <nth nbr>```.
+
 As every operation is printed on the terminal, you can use a pipe and catch the numbers of operations needed with ```wc```.
 
 ## This code is capable of
