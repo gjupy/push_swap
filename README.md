@@ -1,14 +1,16 @@
 # push_swap
 In this project I learned about different sort algorithms and implemented 2 stacks using linked lists.
 
-We were allowed to use following operations: 
+We were supposed to sort the numbers given as input using two stacks and using only following operations: 
 - pa/pb (push number to stack a/b)
 - rra/rrb (reverse rotate stack a/b)
 - ra/rb (rotate stack a/b)
 
 I use a merge-like sort algorithm, which turned out to sort the numbers with a decent number of operations.
 
----
+## How to run
+Use ```make``` and then run the program using ```./push_swap <1st nbr> <2nd nbr> ... <nth nbr>```
+As every operation is printed on the terminal, you can use a pipe and catch the numbers of operations needed with ```wc```.
 
 ## This code is capable of
 - handeling inputs that look like `"2 1 3 4 5"` or `2 1 3 4 5` or `2 1 "3 4 5"`
