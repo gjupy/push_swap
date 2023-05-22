@@ -14,7 +14,7 @@ This program takes a list of numbers and ouputs a list of the commands that can 
 Use ```make``` and then run the program using ```./push_swap <1st nbr> <2nd nbr> ... <nth nbr>```.
 
 As every operation is printed on the terminal, you can use a pipe and catch the numbers of operations needed with ```wc```.
-You can use the [push_swap_visualizer](https://github.com/o-reo/push_swap_visualizer) and [push_swap_tester](https://github.com/louisabricot/push_swap_tester) to test my algorithm and see it in action.
+You can also use the [push_swap_visualizer](https://github.com/o-reo/push_swap_visualizer) and [push_swap_tester](https://github.com/louisabricot/push_swap_tester) to test my algorithm and see it in action.
 
 ## This code is capable of
 - handeling inputs that look like `"2 1 3 4 5"` or `2 1 3 4 5` or `2 1 "3 4 5"`
